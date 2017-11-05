@@ -11,6 +11,8 @@ public:
 
   Neuron(double val);
 
+  void setVal(double val);
+
   // Fast sigmoid function
   // f(x) = x / (1 + |x|)
   void activate();
